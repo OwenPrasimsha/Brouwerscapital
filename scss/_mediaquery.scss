@@ -1,0 +1,470 @@
+// XX-Large devices (larger desktops)
+@media (max-width: 1920px) {
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1440px) {
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1280px) {
+}
+
+// Medium devices (tablets (ipad/Ipad Pro, less than 992px)
+@media (max-width: 992px) {
+  #section2 {
+    height: auto;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    padding-left: 128px;
+    padding-right: 128px;
+    .row {
+      .col-lg-5 {
+        display: flex;
+        justify-content: center;
+        #img-shadow {
+          object-fit: cover;
+          height: 100%;
+          box-shadow: 2rem 2rem $primarycolor;
+        }
+      }
+      .col-lg-6 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        padding-top: 83px;
+        padding-bottom: 83px;
+        h2 {
+          font-family: "Merriweather Bold";
+          font-size: 32px;
+          margin-bottom: 44px;
+        }
+        p {
+          font-family: "Lora Reguler";
+          font-size: 18px;
+          margin-bottom: 32px;
+        }
+        hr {
+          color: $primarycolor;
+          height: 2px;
+          width: 100%;
+          margin-bottom: 32px;
+        }
+        h3 {
+          font-family: "Lora Medium";
+          font-size: 24px;
+        }
+      }
+    }
+  }
+
+  #section4 {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: auto;
+    background-color: $secondbackgroundcolor;
+    background-repeat: no-repeat;
+    background-image: url("/img/BC_LogoSymbol2 (1).png");
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 30vmax;
+    h2 {
+      font-family: "Merriweather Bold";
+      font-size: 32px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-bottom: 50px;
+    }
+    h3 {
+      font-family: "Lora Medium";
+      font-size: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .row {
+      .col-sm-8 {
+        .items {
+          .item {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            h2 {
+              font-family: "Merriweather Bold";
+              font-size: 24px;
+              padding-bottom: 28px;
+              margin-left: 0.5rem;
+            }
+            span {
+              background-color: $primarycolor;
+              display: inline-block;
+              border-radius: 50%;
+              width: 30px;
+              height: 30px;
+              h2 {
+                font-family: "Merriweather Bold";
+                font-size: 13px;
+                color: $secondarycolor;
+                margin: 7px 0px 0px 0px;
+              }
+            }
+          }
+          p {
+            font-family: "Lora Reguler";
+            font-size: 18px;
+            padding-bottom: 28px;
+          }
+          hr {
+            color: $primarycolor;
+            height: 2px;
+            margin-bottom: 50px;
+          }
+        }
+      }
+    }
+  }
+
+  #section5 {
+    height: auto;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    padding-left: 128px;
+    padding-right: 128px;
+    .row {
+      .col-lg-5 {
+        display: flex;
+        justify-content: center;
+        #img-shadow1 {
+          object-fit: cover;
+          height: 100%;
+          box-shadow: -2rem 2rem $primarycolor;
+        }
+      }
+    }
+    .col-lg-6 {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      flex-wrap: wrap;
+      padding-top: 83px;
+      padding-bottom: 83px;
+      h2 {
+        font-family: "Merriweather Bold";
+        font-size: 32px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 44px;
+      }
+      p {
+        font-family: "Lora Reguler";
+        font-size: 18px;
+        margin-bottom: 32px;
+      }
+      hr {
+        color: $primarycolor;
+        height: 2px;
+        width: 538.5px;
+        margin-bottom: 32px;
+      }
+      h3 {
+        font-family: "Lora Medium";
+        font-size: 24px;
+      }
+    }
+    .items {
+      padding-top: 112px;
+      h2 {
+        font-family: "Merriweather Bold";
+        font-size: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 64px;
+      }
+      .main-content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+    }
+  }
+
+  #section6 {
+    background-color: $backgroundcolor;
+    height: auto;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 35px;
+    padding-right: 35px;
+    .row {
+      .col-lg-4 {
+        .title {
+          padding-top: 1rem;
+          font-family: "Merriweather Reguler";
+          font-size: 18px;
+        }
+        .text {
+          font-family: "Lora reguler";
+          font-size: 16px;
+        }
+        .row {
+          .icon {
+            display: flex;
+            i {
+              padding-right: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 768px) {
+  .banner {
+    background-image: url("../img/hunters-race-MYbhN8KaaEc-unsplash.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    #section1 {
+      padding-top: 32px;
+      padding-left: 35px;
+      padding-right: 35px;
+      #navbarNav {
+        ul {
+          li {
+            a {
+              font-family: "Merriweather Reguler";
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+    .container {
+      height: 100vh;
+      margin-top: -130px;
+      h1 {
+        font-family: "Merriweather Bold";
+        font-size: 48px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      i {
+        display: flex;
+        justify-content: center;
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+
+  #section7 {
+    background-color: $footercolor;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 35px;
+    padding-right: 35px;
+    .navbar-text {
+      font-family: "Lora Reguler";
+      font-size: 16px;
+      color: $primarycolor;
+    }
+  }
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 420px) {
+  .banner {
+    background-image: url("../img/hunters-race-MYbhN8KaaEc-unsplash.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    #section1 {
+      padding-top: 32px;
+      padding-left: 15px;
+      padding-right: 15px;
+      #navbarNav {
+        ul {
+          li {
+            a {
+              font-family: "Merriweather Reguler";
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+    .container {
+      height: 100vh;
+      margin-top: -130px;
+      h1 {
+        font-family: "Merriweather Bold";
+        font-size: 48px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      i {
+        display: flex;
+        justify-content: center;
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+
+  #section2 {
+    height: auto;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    padding-left: 15px;
+    padding-right: 15px;
+    .row {
+      .col-lg-5 {
+        display: flex;
+        justify-content: center;
+        #img-shadow {
+          object-fit: cover;
+          height: 100%;
+          box-shadow: 2rem 2rem $primarycolor;
+        }
+      }
+      .col-lg-6 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        padding-top: 83px;
+        padding-bottom: 83px;
+        h2 {
+          font-family: "Merriweather Bold";
+          font-size: 32px;
+          margin-bottom: 44px;
+        }
+        p {
+          font-family: "Lora Reguler";
+          font-size: 18px;
+          margin-bottom: 32px;
+        }
+        hr {
+          color: $primarycolor;
+          height: 2px;
+          width: 100%;
+          margin-bottom: 32px;
+        }
+        h3 {
+          font-family: "Lora Medium";
+          font-size: 24px;
+        }
+      }
+    }
+  }
+
+  #section5 {
+    height: auto;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    padding-left: 15px;
+    padding-right: 15px;
+    .row {
+      .col-lg-5 {
+        display: flex;
+        justify-content: center;
+        order: -1;
+        #img-shadow1 {
+          object-fit: cover;
+          height: 100%;
+          box-shadow: -2rem 2rem $primarycolor;
+        }
+      }
+    }
+    .col-lg-6 {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      flex-wrap: wrap;
+      padding-top: 83px;
+      padding-bottom: 83px;
+      h2 {
+        font-family: "Merriweather Bold";
+        font-size: 32px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 44px;
+      }
+      p {
+        font-family: "Lora Reguler";
+        font-size: 18px;
+        margin-bottom: 32px;
+      }
+      hr {
+        color: $primarycolor;
+        height: 2px;
+        width: 538.5px;
+        margin-bottom: 32px;
+      }
+      h3 {
+        font-family: "Lora Medium";
+        font-size: 24px;
+      }
+    }
+    .items {
+      padding-top: 15px;
+      h2 {
+        font-family: "Merriweather Bold";
+        font-size: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 64px;
+      }
+      .main-content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+    }
+  }
+
+  #section7 {
+    background-color: $footercolor;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    .navbar-text {
+      font-family: "Lora Reguler";
+      font-size: 16px;
+      color: $primarycolor;
+    }
+  }
+}

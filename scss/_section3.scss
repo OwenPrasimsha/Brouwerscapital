@@ -1,0 +1,40 @@
+#section3 {
+  padding-top: 112px;
+  padding-bottom: 112px;
+  height: auto;
+  background-color: $backgroundcolor;
+  h2 {
+    font-family: "Merriweather Bold";
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  .main-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .title {
+      color: #9e8253;
+      justify-content: center;
+      display: flex;
+      font-family: "Lora Bold";
+      font-size: 56px;
+      padding-bottom: 40px;
+      .icon {
+        font-size: 28px;
+        align-items: flex-end;
+        display: flex;
+      }
+    }
+    .text {
+      justify-content: center;
+      display: flex;
+      font-family: "Lora Reguler";
+      font-size: 24px;
+    }
+  }
+}

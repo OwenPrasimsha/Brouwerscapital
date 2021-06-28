@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <!-- Bootstrap CSS -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- icon font awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" />
+
+    <link rel="stylesheet" href="scss/main.css" />
+
+    <title>Belajar Bootstrap | SASS | Layouting</title>
+  </head>
+  <body>
+    <!-- section 1 -->
+    <div class="banner">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-transparent">
+        <div class="container-fluid" id="section1">
+          <a class="navbar-brand" href="#">
+            <img class="img-fluid" src="img/BC_LogoHorizontal1.png" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Strategy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Get in touch</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container d-flex justify-content-center align-items-center">
+        <div class="row">
+          <div class="col-12">
+            <h1>The company's <br />tagline goes here</h1><br>
+            <i><img src="/img/Group 195.png"></i>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- Section 2 -->
+    <div class="container-fluid" id="section2">
+      <div class="row">
+        <div class="col-lg-5">
+          <img class="img-fluid" src="img/André Brouwers.png" id="img-shadow" />
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-6">
+          <h2>Welcome to Brouwers Capital</h2>
+          <p>
+            My name is André Brouwers, I am the founder of the Brouwers Fund and I would like to tell you more about our innovative investment approach. We have developed a methodology that allows you to make a safe return on your assets,
+            in principle independently of developments on the financial markets. Our fund can be an excellent addition to your current investment portfolio because the results have almost no correlation with an equity or bond portfolio.
+          </p>
+          <hr />
+          <h3>About us <i><img src="/img/Icon feather-arrow-right.png"></i></h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="container-fluid" id="section3">
+      <h2>Why Brouwers Capital?</h2>
+      <div class="main-content">
+        <div class="content">
+          <h3 class="title">
+            10
+            <p class="icon">+</p>
+          </h3>
+          <p class="text">Years of experience</p>
+        </div>
+        <div class="content">
+          <h3 class="title">
+            100
+            <p class="icon">+</p>
+          </h3>
+          <p class="text">Registered investors</p>
+        </div>
+        <div class="content">
+          <h3 class="title">
+            $100
+            <p class="icon">m+</p>
+          </h3>
+          <p class="text">Total AUM</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 4 -->
+    <div class="container-fluid" id="section4">
+      <h2>Our 3M principle</h2>
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-sm-8">
+          <div class="items">
+            <div class="item">
+              <span> <h2>1</h2></span>
+              <h2> Method</h2><p>
+            </div>
+              Our many years of research have led to a method in which there is a statistical<br />
+              dvantage (edge) that can be exploited continuously.
+            </p>
+            <hr />
+          </div>
+          <div class="items">
+            <div class="item">
+              <span> <h2>2</h2></span>
+              <h2>Mindset</h2>
+            </div>
+            <p>
+              The weakest link is usually the investor or trader himself. Investing is making <br />decisions. Trading is making decisions even more frequently.<br /><br />
+              Since one only knows afterwards whether a decision is right, trading requires dealing<br />
+              with uncertainty in the right way. The mindset is essential for achieving success. Many <br />
+              investors have difficulty accepting losses and therefore often wait too long.
+            </p>
+            <hr />
+          </div>
+          <div class="items">
+            <div class="item">
+              <span> <h2>3</h2></span>
+              <h2>Money Management</h2>
+            </div>
+            <p>
+              Since no one can predict the future, even the best investor or trader will make <br />
+              mistakes. An erroneous estimate leads to a loss. This does not have to be a problem as <br />
+              long as this loss is limited and in the right proportion to the profit transactions. Our <br />
+              approach has a good risk/return ratio that is often much better than that of other <br />
+              investments. <br />
+              <br />
+              Good risk management ensures the limited drawdown in our results.
+            </p>
+            <hr />
+          </div>
+        </div>
+        <div class="col-2"></div>
+      </div>
+      <h3>Our startegy <i><img src="/img/Icon feather-arrow-right.png"></i></h3>
+      <!-- <img class="img-fluid" src="/img/BC_LogoSymbol2 (1).png" /> -->
+    </div>
+
+    <!-- Section 5 -->
+    <div class="container-fluid" id="section5">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>Title for CTA goes here</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed <br />
+            diam nonumy eirmod tempor invidunt ut labore et dolore <br />
+            magna aliquyam erat, sed diam voluptua. At vero
+          </p>
+          <hr />
+          <h3>Get in touch <i><img src="/img/Icon feather-arrow-right.png"></i></h3>
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5">
+          <img class="img-fluid" src="img/bruce-mars-8YG31Xn4dSw-unsplash.png" id="img-shadow1" />
+        </div>
+      </div>
+      <div class="items">
+        <h2>Featured on</h2>
+        <div class="main-content">
+          <img src="/img/telegraaf-1-.png" />
+          <img src="/img/rtlz-1.png" />
+          <img src="/img/lynx-1.png" />
+          <img src="/img/ing-sprinters-nl.png" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 6 -->
+    <div class="container-fluid" id="section6">
+      <div class="row">
+        <div class="col-lg-4">
+          <h5 class="title">Contact</h5>
+          <div class="item">
+            <i><img src="/img/Icon feather-phone-call.png"></i>
+            <p class="text">+31 (0) 20 2 152 010</p>
+          </div>
+          <div class="item">
+            <i><img src="/img/Icon feather-mail.png"></i>
+            <p class="text">info@brouwerscapital.com</p>
+          </div>
+          <p class="text">Beursplein 5 1012 JW Amsterdam Nederland</p>
+        </div>
+        <div class="col-lg-4">
+          <h5 class="title">Browser Fund</h5>
+          <p class="text">About</p>
+          <p class="text">Strategy</p>
+          <p class="text">Contact</p>
+          <p class="text">Privacy policy</p>
+          <p class="text">Terms and conditions</p>
+        </div>
+        <div class="col-lg-4">
+          <div class="row">
+            <h5 class="title">Newsletter</h5>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Your email" aria-label="Your email" aria-describedby="basic-addon1"/>
+              <span class="input-group-text" id="basic-addon1"><img src="/img/Icon ionic-ios-paper-plane.png"></span>
+            </div>
+          </div> <br>
+          <div class="row">
+            <h5 class="title">Social Media</h5>
+            <div class="icon">
+              <i><img src="/img/Icon awesome-facebook-f.png"></img></i>
+              <i><img src="/img/Icon awesome-twitter.png"></img></i>
+              <i><img src="/img/Icon awesome-linkedin-in.png"></img></i>
+              <i><img src="/img/Icon awesome-youtube.png"></img></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 7 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-transparent">
+      <div class="container-fluid" id="section7">
+        <a class="navbar-brand" href="#">
+          <img class="img-responsive" src="img/BC_LogoHorizontal2.png" />
+        </a>
+        <span class="navbar-text"> Copyright 2020 Brouwers Fund </span>
+      </div>
+    </nav>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+#section2 {
+  height: auto;
+  padding-top: 112px;
+  padding-bottom: 112px;
+  padding-left: 128px;
+  padding-right: 128px;
+  .row {
+    .col-lg-5 {
+      #img-shadow {
+        object-fit: cover;
+        height: 100%;
+        box-shadow: 2rem 2rem $primarycolor;
+      }
+    }
+    .col-lg-6 {
+      padding-top: 83px;
+      padding-bottom: 83px;
+      h2 {
+        font-family: "Merriweather Bold";
+        font-size: 32px;
+        margin-bottom: 44px;
+      }
+      p {
+        font-family: "Lora Reguler";
+        font-size: 18px;
+        margin-bottom: 32px;
+      }
+      hr {
+        color: $primarycolor;
+        height: 2px;
+        width: 100%;
+        margin-bottom: 32px;
+      }
+      h3 {
+        font-family: "Lora Medium";
+        font-size: 24px;
+      }
+    }
+  }
+}

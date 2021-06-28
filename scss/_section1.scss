@@ -1,0 +1,44 @@
+.banner {
+  background-image: url("../img/hunters-race-MYbhN8KaaEc-unsplash.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  box-shadow: 100vw 100vh $bannercolor inset;
+  #section1 {
+    padding-top: 32px;
+    padding-left: 128px;
+    padding-right: 128px;
+    #navbarNav {
+      ul {
+        li {
+          a {
+            font-family: "Merriweather Reguler";
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+  .container {
+    height: 100vh;
+    margin-top: -130px;
+    h1 {
+      font-family: "Merriweather Bold";
+      font-size: 48px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    i {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
